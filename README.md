@@ -14,7 +14,7 @@ To run the app locally, clone the repository, navigate to it's directory.
 
 git clone `https://github.com/taiwo2/taiwo-adetona-task.git `<br>
 
-cd appointment-booking-frontend <br>
+cd scandiweb8 <br>
 
 npm install <br>
 
