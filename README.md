@@ -61,8 +61,7 @@ Feel free to check the [issues page](issues/).
 
 ## Acknowledgments
 
-- [Murat Korkmaz](https://www.behance.net/gallery/26425031/Vespa-Responsive-Redesign) for design
-- [Microverse](https://microverse.org)
+- Scandiweb 
 
 ## Show your support
 
