@@ -1,0 +1,61 @@
+@import url("./index.css");
+
+.productdetailcover{
+  padding: 5% 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 800px) {
+    .productdetailcover{
+      flex-direction: column;
+      justify-content: space-evenly;
+    }
+  }
+ 
+.productInfo{
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+
+.brand{
+  height: 27px;
+  margin-bottom: 10px;
+}
+
+.brandname{
+  height: 27px;
+  margin-bottom: 10px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.productImages{
+  text-align: center;
+  display: flex;
+}
+
+.imgdflex {
+  display: flex;
+  flex-direction: column; 
+}
+
+.imgdfle img{
+  width: 600px;
+  object-fit: cover;
+  height: 100%;
+}
+.productImages img{
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.htmltext{
+  margin-top: 30px;
+}

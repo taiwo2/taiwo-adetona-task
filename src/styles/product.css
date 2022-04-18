@@ -1,0 +1,123 @@
+@import url("./index.css");
+
+.container{
+  background-color: white;
+  height: max-content;
+  width: 100%;
+  border-radius: 15px;
+  text-align: left;
+  transition: ease-in-out 100ms;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.container:hover{
+  transform: scale(1.02);
+  z-index: 5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+.productImg{
+  width: 100%;
+  object-fit: contain;
+  border-radius: 15px 15px 0 0;
+  display: block;
+  margin: auto;
+  transition: ease-in-out 150ms;
+}
+
+.productopac{
+  width: 100%;
+  object-fit: contain;
+  border-radius: 15px 15px 0 0;
+  display: block;
+  margin: auto;
+  transition: ease-in-out 150ms;
+  opacity: 0.5;
+}
+
+.details{
+  padding: 30px 20px;
+  position: relative;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-size: 18px;
+  line-height: 160%;
+  color: #1D1F22;
+}
+
+.details-h4{
+  font-weight: 300;
+  height: 29px;
+}
+
+.details-h5 {
+  font-weight: 500;
+  height: 29px;
+}
+
+.outstock{
+  padding-left: 20px;
+  position: relative;
+  top: -30px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 160%;
+  color: #8D8F9A;
+}
+.outstock h4{
+  position: static;
+  height: 29px;
+  font-weight: 300;
+}
+
+.outstock h5{
+  position: static;
+  height: 29px;
+  font-weight: 500;
+ 
+}
+
+.stock{
+  text-align: center;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 160%;
+  position: absolute;
+  left: 25.42%;
+  right: 25.71%;
+  top: 44.24%;
+  bottom: 43.94%;
+  display: flex;
+  align-items: center;
+  color: #8D8F9A;
+}
+.addToBag{
+  position: absolute;
+  top: -40px;
+  right: 10px;
+  border-radius: 100%;
+  border: none;
+  padding: 3%;
+  transition: ease-in-out 80ms;
+  cursor: pointer;
+  opacity: 0.8;
+  background-color: var(--primary);
+}
+
+.addToBag:hover{
+  opacity: 1;
+  background-color: var(--primary);
+  transform: scale(1.1);
+}
+
+.addToBag:active{
+  transform: scale(1);
+}

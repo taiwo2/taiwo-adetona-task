@@ -1,0 +1,68 @@
+@import url(./index.css);
+
+.backdrop{
+  position: absolute;
+  top: -50%;
+  min-height: 300vh;
+  width: 100%;
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 0.45);
+}
+
+.minicart{
+  width: 40%;
+  color: black;
+  margin: auto;
+  margin-right: 40px;
+  transform: scale(0.7);
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.totalmini{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 30px;
+}
+
+.totalmini p{
+  width: 95px;
+  height: 26px;
+  left: 1238px;
+  top: 492px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  text-align: right;
+}
+
+.items{
+  margin: 20px auto;
+  height: 500px;
+  overflow-y: scroll;
+}
+
+.showFullBag button{
+  width: 40%;
+  height: 50px;
+  margin: 5%;
+  font-size: x-large;
+}
+
+.checkout {
+  color: #FFFFFF;
+  border: none;
+  background: #5ECE7B;
+}
+
+.showcart {
+  color: black;
+  border: 1px solid #1D1F22;
+  box-sizing: border-box;
+  background: #FFFFFF;
+} 

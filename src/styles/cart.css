@@ -1,0 +1,14 @@
+.clearbtn {
+  margin: 20px auto;
+  padding: 1%;
+  display: block;
+  height: max-content;
+  width: max-content;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 2rem;
+  background-color: red;
+  border: none;
+  color: white;
+  box-shadow: 2px 2px 10px black,
+}

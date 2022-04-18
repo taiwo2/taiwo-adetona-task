@@ -1,0 +1,112 @@
+@import url("./index.css");
+
+.navbar {
+  position: relative;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  background-color: #fff;
+  z-index: 1000;
+}
+.homeflex{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 90px;
+}
+.home{
+  background-color: var(--primary);
+  padding: 3px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.8rem;
+    }
+  }
+
+.categories {
+  display: flex;
+  justify-content: space-between;
+}
+
+.category {
+  margin: 0 15px;
+  font-weight: light;
+  font-size: 1.5em;
+  border-bottom: 3px solid transparent;
+  padding: 15px 0px;
+  cursor: pointer;
+}
+
+.arrowdown{
+  color: #fff;
+  padding: 5px;
+  cursor: pointer;
+  background: linear-gradient(316.98deg, #52D67A 16.88%, #5AEE87 84.04%);
+
+}
+
+.category:hover {
+  border-bottom: 3px solid var(--primary);
+  color: var(--primary);
+}
+
+.currency {
+  border: none;
+  border-radius: 5px;
+  padding: 0px 10px;
+  width: fit-content;
+  height: 1.5rem;
+  font-weight: bold;
+  color: var(--dark);
+  cursor: pointer;
+}
+
+.currencyOption{
+  background-color: var(--light);
+  color: var(--dark);
+}
+
+.currencycover{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: clamp(fit-content, 20%, 200px);
+  padding-right: 110px;
+    
+}
+
+.currencycover button {
+  position: relative;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 5px;
+  margin: auto 20px;
+  background-color: white;
+  border: none;
+  border-radius: 20%;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.badge{
+  position: absolute;
+  top: -15%;
+  right: -15%;
+  padding: 5px;
+  border-radius: 50%;
+  background-color:  black;
+  color: var(--light);
+  font-weight: 600;
+}

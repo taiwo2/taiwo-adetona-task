@@ -1,0 +1,32 @@
+:root{
+  --light: #F3F3F3;
+  --dark:  #0F0F0F;
+  --primary:  #5ECE7B;
+  font-size: 16px;
+}
+/* 'Montserrat' */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif,;
+}
+
+body{
+  background-color: var(--light);
+  color: var(--dark);
+  padding-bottom: 50px;
+}
+
+button{
+  cursor: pointer;
+  transition: ease-in-out 80ms;
+}
+
+button:hover{
+  transform: scale(1.05);
+}
+
+button:active{
+  transform: scale(1);
+}

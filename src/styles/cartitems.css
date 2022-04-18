@@ -1,0 +1,87 @@
+@import url("./index.css");
+
+.productcover{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  /* margin: 10px auto; */
+  padding: 1%;
+  background-color: white;
+  border-top: 3px solid #F3F3F3;
+}
+.carthead {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #1D1F22;
+}
+
+.productcover h3{
+  margin: 10px auto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  margin: 10px auto;
+  color: #1D1F22;
+}
+
+.productDetails{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.productShowCase{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.productShowCase img {
+    object-fit: cover;
+}
+
+.productQuantity{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.productQuantity button{
+    width: 24px;
+    height: 24px;
+    font-size: 20px;
+    border-radius: 3px;
+    border: 1px solid #1D1F22;
+    background: #fff;
+}
+
+.symbolbtn{
+  width: 30px;
+  height: 24px;
+  margin-right: 5px;
+  font-size: 20px;
+  border-radius: 3px;
+  border: 1px solid #1D1F22;
+  background: #fff;
+}
+
+.removebtn{
+  padding: 1%;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  color: white;
+}
+
+.onhover:hover{
+  background-color: black;
+  color: #fff;
+}

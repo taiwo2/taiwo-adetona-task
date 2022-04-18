@@ -1,0 +1,8 @@
+export const CATEGORY_UPDATE = "CATEGORY_UPDATE"
+export const CURRENCY_UPDATE = "CURRENCY_UPDATE"
+export const PRODUCT_ID = "PRODUCT_ID"
+export const ADD_TO_CART = "ADD_TO_CART"
+export const CLEAR_CART = "CLEAR_CART"
+export const REMOVE_BAG_ITEM = "REMOVE_BAG_ITEM"
+export const QUANTITY_INC = "QUANTITY_INC"
+export const QUANTITY_DEC = "QUANTITY_DEC"
